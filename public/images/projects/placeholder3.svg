@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+  <defs><linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#101010"/><stop offset="1" stop-color="#1f1f1f"/></linearGradient></defs>
+  <rect width="1200" height="750" fill="url(#g3)"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#AAAAAA" font-size="64" font-family="sans-serif">Project Three</text>
+</svg>
