@@ -9,7 +9,7 @@
     "lint": "eslint . --ext .ts,.tsx"
   },
   "dependencies": {
-    "@react-three/drei": "9.86.7",
+    "@react-three/drei": "9.115.0",
     "@react-three/fiber": "8.15.10",
     "framer-motion": "11.2.6",
     "@studio-freight/lenis": "1.0.29",
