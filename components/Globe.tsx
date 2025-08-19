@@ -2,7 +2,7 @@
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useRef, useMemo } from "react";
 import * as THREE from "three";
-import { OrbitControls, Points, PointMaterial, Stars, MeshDistortMaterial } from "@react-three/drei";
+import { OrbitControls, Points, PointMaterial, Stars } from "@react-three/drei";
 import { EffectComposer, Bloom, DepthOfField, Vignette } from "@react-three/postprocessing";
 
 function DNAHelix() {
@@ -68,7 +68,7 @@ function Nebula() {
   );
 }
 
-export default function GlobeCinematic() {
+export default function Globe() {
   return (
     <div className="absolute inset-0 -z-10">
       <Canvas camera={{ position: [0, 0, 12], fov: 50 }}>
