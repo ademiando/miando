@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #060606;
+  --fg: #ffffff;
+}
+
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); }
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+html { cursor: none; }
+a, button, [role='button'] { cursor: none; }
+canvas { display:block; }
